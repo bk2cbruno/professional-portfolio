@@ -1,26 +1,26 @@
 export default function Home() {
   return (
     <main className="bg-[#0a0a0a] min-h-screen text-[#ededed]">
-      
+
       {/* --- HERO SECTION (A Site) --- */}
       <section className="min-h-screen flex flex-col justify-center px-8 md:px-24">
         <div className="max-w-4xl w-full space-y-6">
           <p className="text-[#007acc] font-mono text-sm md:text-base tracking-wide">
             &gt; System initialized.
           </p>
-          
+
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight">
             Bruno Costa.
           </h1>
-          
+
           <h2 className="text-3xl md:text-5xl text-gray-400 font-bold tracking-tight">
             I build high-performance digital architecture.
           </h2>
-          
+
           <p className="text-gray-500 text-lg md:text-xl max-w-2xl pt-4 leading-relaxed">
-            Senior Software Engineer specializing in scalable full-stack applications, modular programming, and optimizing backend systems. 
+            Senior Software Engineer specializing in scalable full-stack applications, modular programming, and optimizing backend systems.
           </p>
-          
+
           <div className="flex gap-4 pt-8">
             <a href="#projects" className="bg-[#ededed] text-[#0a0a0a] px-6 py-3 rounded font-semibold hover:bg-white transition-colors duration-200">
               Deployments
@@ -38,9 +38,9 @@ export default function Home() {
           <h2 className="text-3xl md:text-5xl font-bold mb-12 border-b border-gray-800 pb-4">
             Featured Architecture
           </h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            
+
             {/* Project Card: PC Shutdown Scheduler */}
             <div className="bg-[#0a0a0a] border border-gray-800 rounded-lg p-6 hover:border-[#007acc] transition-colors duration-300 flex flex-col justify-between group">
               <div>
@@ -60,14 +60,25 @@ export default function Home() {
                 View Repository &rarr;
               </a>
             </div>
-            
-            {/* Placeholder: Future Enterprise React Project */}
-            <div className="bg-[#0a0a0a] border border-gray-800 border-dashed rounded-lg p-6 flex flex-col items-center justify-center text-center opacity-50">
-              <div className="text-4xl mb-4">⚙️</div>
-              <h3 className="text-lg font-bold text-gray-500 mb-2">Classified Deployment</h3>
-              <p className="text-gray-600 text-sm">
-                Enterprise SaaS Architecture in development...
-              </p>
+
+            {/* Project Card: Enterprise SaaS Dashboard */}
+            <div className="bg-[#0a0a0a] border border-gray-800 rounded-lg p-6 hover:border-[#007acc] transition-colors duration-300 flex flex-col justify-between group">
+              <div>
+                <h3 className="text-xl font-bold text-white mb-2 group-hover:text-[#007acc] transition-colors">
+                  Enterprise Analytics OS
+                </h3>
+                <p className="text-gray-400 text-sm mb-4 leading-relaxed">
+                  A high-performance B2B SaaS dashboard featuring real-time data visualization, modular component architecture, and responsive CSS Grid layouts.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="text-xs font-mono bg-[#1a1a1a] text-gray-300 px-2 py-1 rounded">Next.js 15</span>
+                  <span className="text-xs font-mono bg-[#1a1a1a] text-gray-300 px-2 py-1 rounded">Tailwind CSS</span>
+                  <span className="text-xs font-mono bg-[#1a1a1a] text-gray-300 px-2 py-1 rounded">Recharts</span>
+                </div>
+              </div>
+              <a href="https://enterprise-saas-dashboard-six.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-[#007acc] hover:underline">
+                View Live Deployment &rarr;
+              </a>
             </div>
 
           </div>
