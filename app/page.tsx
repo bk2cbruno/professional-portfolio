@@ -81,6 +81,50 @@ export default function Home() {
               </a>
             </div>
 
+            {/* Project 1: Narina Guest House */}
+            <a href="https://narinaguesthouse.netlify.app/" target="_blank" rel="noopener noreferrer" className="group block bg-[#0a0a0a] border border-gray-800 rounded-xl p-6 hover:border-[#007acc] transition-colors">
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-[#007acc] transition-colors">Narina Guest House</h3>
+              <p className="text-gray-400 text-sm mb-4">Guest House website located in Assomada Cape Verde for rooms reservations.</p>
+              <div className="flex gap-2 text-xs font-mono text-gray-500">
+                <span className="bg-[#111111] px-2 py-1 rounded">React</span>
+                <span className="bg-[#111111] px-2 py-1 rounded">Tailwind</span>
+                <span className="bg-[#111111] px-2 py-1 rounded">Supabase</span>
+              </div>
+            </a>
+
+            {/* Project 2: Lugamcaro */}
+            <a href="YOUR_NETLIFY_LINK_HERE" target="_blank" rel="noopener noreferrer" className="group block bg-[#0a0a0a] border border-gray-800 rounded-xl p-6 hover:border-[#007acc] transition-colors">
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-[#007acc] transition-colors">Lugamcaro</h3>
+              <p className="text-gray-400 text-sm mb-4">Peer-to-peer car rental platform featuring row-level security.</p>
+              <div className="flex gap-2 text-xs font-mono text-gray-500">
+                <span className="bg-[#111111] px-2 py-1 rounded">React</span>
+                <span className="bg-[#111111] px-2 py-1 rounded">Supabase</span>
+                <span className="bg-[#111111] px-2 py-1 rounded">Netlify</span>
+              </div>
+            </a>
+
+            {/* Project 3: RifaNaMom */}
+            <a href="https://rifanamom.netlify.app/" target="_blank" rel="noopener noreferrer" className="group block bg-[#0a0a0a] border border-gray-800 rounded-xl p-6 hover:border-[#007acc] transition-colors">
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-[#007acc] transition-colors">RifaNaMom</h3>
+              <p className="text-gray-400 text-sm mb-4">Web-based raffle application.</p>
+              <div className="flex gap-2 text-xs font-mono text-gray-500">
+                <span className="bg-[#111111] px-2 py-1 rounded">Web App</span>
+                <span className="bg-[#111111] px-2 py-1 rounded">Netlify</span>
+              </div>
+            </a>
+
+
+            {/* Project 4: Flávio Loureiro | Terapias & Massagens */}
+            <a href="https://flavio-massagens.netlify.app/" target="_blank" rel="noopener noreferrer" className="group block bg-[#0a0a0a] border border-gray-800 rounded-xl p-6 hover:border-[#007acc] transition-colors">
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-[#007acc] transition-colors">Flávio Loureiro | Terapias & Massagens</h3>
+              <p className="text-gray-400 text-sm mb-4">Professional booking platform for massage therapy sessions, featuring a complete administrative backoffice for business management.</p>
+              <div className="flex flex-wrap gap-2 text-xs font-mono text-gray-500">
+                <span className="bg-[#111111] px-2 py-1 rounded">Fullstack</span>
+                <span className="bg-[#111111] px-2 py-1 rounded">Booking System</span>
+                <span className="bg-[#111111] px-2 py-1 rounded">Admin Dashboard</span>
+              </div>
+            </a>
+
           </div>
         </div>
       </section>
